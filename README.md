@@ -1,23 +1,58 @@
-# Klasifikasi Obesitas Menggunakan KNN (Orange Data Mining)
+# Obesity Classification Using K-Nearest Neighbors (KNN)
 
-Proyek ini mengkaji pengaruh faktor genetik dan gaya hidup terhadap status berat badan menggunakan dataset publik dan algoritma K-Nearest Neighbors (KNN) di Orange.
+A classification project analyzing the relationship between genetic, lifestyle, and physical activity factors with obesity status using the **K-Nearest Neighbors (KNN)** algorithm.
 
-## Tools
-- Orange Data Mining
-- Dataset dari Kaggle (1610 entri, 11 variabel)
+## Project Overview
 
-## Proses
-- Data preprocessing
-- Feature selection
-- Model training dan evaluasi
-- Visualisasi: Confusion Matrix & Scatter Plot
+This project uses a public obesity dataset containing **1,610 records and 11 variables**. The objective is to classify individuals into four weight-status categories:
 
-## Output
-Model klasifikasi status berat badan:
-- Underweight
-- Normal
-- Overweight
-- Obese
+* Underweight
+* Normal
+* Overweight
+* Obesity
 
-## Dataset
-Workflow tersedia: `fix-obesity.ows`
+The analysis was conducted using **Orange Data Mining**.
+
+## Tools & Technologies
+
+* Orange Data Mining
+* Kaggle Dataset
+
+## Analysis Process
+
+The project consists of several stages:
+
+1. Data preprocessing
+2. Feature selection
+3. KNN model development
+4. Model evaluation
+5. Data visualization
+
+## Model
+
+The **K-Nearest Neighbors (KNN)** algorithm was used to classify the obesity status based on the selected features.
+
+The complete Orange workflow is available in:
+
+`workflow/obesity-knn.ows`
+
+## Results & Visualization
+
+The model evaluation and analysis were visualized using:
+
+* Confusion Matrix
+* Scatter Plot
+
+The visualization files are available in the `results/` folder.
+
+## Project Documentation
+
+Project documentation is available in:
+
+`presentation/obesity-knn-presentation.pdf`
+
+## Publication
+
+The submitted paper is included for documentation purposes in:
+
+`paper/obesity-knn.pdf`
